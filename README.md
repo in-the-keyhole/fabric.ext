@@ -63,3 +63,17 @@ rect.on('mousedown', function (options) {
 });
 
 ```
+#### A Variant for require.js 
+Use `fabric.canvasex.require.js` with require.js. The previous code examples are valid for modules `fabric` and `fabricex`. An example snippet for the config path follows:
+
+ ```       
+        paths : {
+          ...
+            'fabric'     : '/lib/fabric.require',
+            'fabricex'   : '/lib/fabric.canvasex.require',
+        },
+
+```
+
+
+
